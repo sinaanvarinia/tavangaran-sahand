@@ -8,10 +8,10 @@ import "animate.css";
 export const Hero = () => {
   return (
     <div className=" text-white h-[calc(100vh-4rem)] bg-cover bg-[url('/heroBg.png')] w-full  items-center justify-center ">
-      <div className="container m-auto flex flex-row py-20">
+      <div className="container justify-center m-auto flex flex-row py-20">
         {/* right */}
-        <div className="flex text-3xl flex-col p-12 w-7/12 gap-10  items-center bg-red-200v">
-          <h1 className="font-Titr text-6xl leading-loose">
+        <div className="flex text-lg sm:text-3xl text-center flex-col p-12 md:w-7/12 gap-10  items-center ">
+          <h1 className="font-Titr  max-sm:text-3xl   text-6xl text-center leading-loose">
             گروه صنعتی توانگران سهند
           </h1>
           <Typewriter
@@ -24,7 +24,7 @@ export const Hero = () => {
           />
         </div>
         {/* left */}
-        <div className="hidden sm:flex flex-col relative gap-20 justify-center items-center w-5/12 bg-green-200c">
+        <div className="hidden sm:flex flex-col relative gap-5 justify-center items-center w-5/12 ">
           {/* logo animation */}
           <Image
             className="animate__slow animate__animated animate__bounceIn animate__delay-1s absolute top-[106px] lg:hidden"
@@ -62,7 +62,7 @@ export const Hero = () => {
             alt="logo"
           />
           {/* text tavangaran */}
-          <h1 className="animate__animated lg:bg-red-500 md:bg-blue-500 animate__bounceInUp animate__slow animate__delay-4s absolute top-[300px] font-Packard flex flex-col gap-5 ">
+          <h1 className="animate__animated max-lg:hidden animate__bounceInUp animate__slow animate__delay-4s absolute top-[280px] font-Packard flex flex-col gap-5 ">
             <div className="text-4xl">Tavangaran Sahand</div>
             <div>Industrial Group</div>
           </h1>
