@@ -1,28 +1,73 @@
 "use client";
 
+import Image from "next/image";
 import React, { useEffect } from "react";
 import Typewriter from "typewriter-effect";
-// import { init } from "ityped";
+import "animate.css";
 
 export const Hero = () => {
-//   useEffect(() => {
-//     const myElement = document.querySelector("#myElement");
-//     init(myElement, {
-//       showCursor: false,
-//       strings: ["توانگران سهند","اکنشاف"],
-//     });
-//   }, []);
   return (
-    <div className="text-white h-[calc(100vh-4rem)] bg-cover bg-[url('/heroBg.png')] w-full flex items-center justify-center">
-      {/* <div id="myElement"></div> */}
-      <Typewriter
-        options={{
-          strings: ["توانگران سهند", "اکنشاف"],
-          autoStart: true,
-          delay: 75,
-          loop: true,
-        }}
-      />
+    <div className=" text-white h-[calc(100vh-4rem)] bg-cover bg-[url('/heroBg.png')] w-full  items-center justify-center ">
+      <div className="container m-auto flex flex-row py-20">
+        {/* right */}
+        <div className="flex text-3xl flex-col p-12 w-7/12 gap-10  items-center bg-red-200v">
+          <h1 className="font-Titr text-6xl leading-loose">
+            گروه صنعتی توانگران سهند
+          </h1>
+          <Typewriter
+            options={{
+              strings: ["فراوری", "استخراج", "اکتشاف"],
+              autoStart: true,
+              delay: 100,
+              loop: true,
+            }}
+          />
+        </div>
+        {/* left */}
+        <div className="hidden sm:flex flex-col relative gap-20 justify-center items-center w-5/12 bg-green-200c">
+          {/* logo animation */}
+          <Image
+            className="animate__slow animate__animated animate__bounceIn animate__delay-1s absolute top-[106px] lg:hidden"
+            src="/logo.svg"
+            width={335.7}
+            height={139.73}
+            alt="logo"
+          />
+          <Image
+            className="animate__slow animate__animated animate__bounceIn animate__delay-1s absolute top-[106px] hidden lg:block"
+            src="/heroLogo/mountain.svg"
+            width={335.7}
+            height={139.73}
+            alt="logo"
+          />
+          <Image
+            className="animate__infinite animate__slower animate__animated animate__rotateInDownLeft animate__delay-2s absolute w-[74.1px] h-[70px] lg:top-[83px] xl:left-[245px] lg:left-[191px]  hidden lg:block "
+            src="/heroLogo/ax.svg"
+            width={74.1}
+            height={70}
+            alt="logo"
+          />
+          <Image
+            className="animate__slow animate__animated animate__flipInY animate__delay-3s absolute w-[11.93px] h-[19.6px] lg:top-[142px] xl:left-[234px] lg:left-[180px] object-fit md:left-[127px] hidden lg:block"
+            src="/heroLogo/dot.svg"
+            width={11.93}
+            height={19.6}
+            alt="logo"
+          />
+          <Image
+            className="animate__slow animate__animated animate__fadeInDown animate__delay-4s absolute w-[63.12px] h-[92.03px] lg:top-[156px] xl:left-[274px] lg:left-[220px] object-fit md:left-[169px] hidden lg:block"
+            src="/heroLogo/river.svg"
+            width={63.12}
+            height={92.03}
+            alt="logo"
+          />
+          {/* text tavangaran */}
+          <h1 className="animate__animated lg:bg-red-500 md:bg-blue-500 animate__bounceInUp animate__slow animate__delay-4s absolute top-[300px] font-Packard flex flex-col gap-5 ">
+            <div className="text-4xl">Tavangaran Sahand</div>
+            <div>Industrial Group</div>
+          </h1>
+        </div>
+      </div>
     </div>
   );
 };

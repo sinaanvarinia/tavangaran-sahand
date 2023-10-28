@@ -1,9 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: Titr;
+  src: url("../../public/fonts/BTitr.woff");
+  font-style: normal;
+}
 
-
+@font-face {
+    font-family: IranYekan;
+    src: url("../../public/fonts/Iranyekanmedium.ttf");
+    font-style: normal;
+}
+@font-face {
+    font-family: Packard;
+    src: url("../../public/fonts/PackardClipperNF.otf");
+    font-style: normal;
+}
 
 body {
-  
+  @apply font-IranYekan;
 }
