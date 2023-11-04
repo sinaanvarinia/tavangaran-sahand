@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-// import Head from "next/head";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "گروه صنعتی توانگران سهند",
-  description: "created by sina anvarinia",
+  description: "Mining company , exploration, excavation,processing and more.Website created by Sina Anvarinia",
   // icons: {
   //   icon: "public/favIcon/android-chrome-192x192.png",
   //   apple: "public/favIcon/apple-icon.png",
