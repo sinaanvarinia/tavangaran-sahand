@@ -8,16 +8,21 @@
 }
 
 @font-face {
-    font-family: IranYekan;
-    src: url("../../public/fonts/Iranyekanmedium.ttf");
-    font-style: normal;
+  font-family: IranYekan;
+  src: url("../../public/fonts/Iranyekanmedium.ttf");
+  font-style: normal;
 }
 @font-face {
-    font-family: Packard;
-    src: url("../../public/fonts/PackardClipperNF.otf");
-    font-style: normal;
+  font-family: Packard;
+  src: url("../../public/fonts/PackardClipperNF.otf");
+  font-style: normal;
 }
 
 body {
   @apply font-IranYekan;
 }
+
+/* .uniCodeFont {
+  @apply font-Packard;
+  
+} */
