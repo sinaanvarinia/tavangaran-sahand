@@ -4,7 +4,8 @@ import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "گروه صنعتی توانگران سهند",
-  description: "Mining company , exploration, excavation,processing and more.Website created by Sina Anvarinia",
+  description:
+    "Mining company , exploration, excavation,processing and more.Website created by Sina Anvarinia",
   // icons: {
   //   icon: "public/favIcon/android-chrome-192x192.png",
   //   apple: "public/favIcon/apple-icon.png",
@@ -37,9 +38,9 @@ export default function RootLayout({
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ecc009" />
         <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff"></meta>
+        <meta name="theme-color" content="#ffffff"></meta>{" "}
       </head>
       <body className="">{children}</body>
     </html>
