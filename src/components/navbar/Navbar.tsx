@@ -15,7 +15,7 @@ const Navbar = () => {
           <ul className={`flex flex-row ${styles.contentColor}`}>
             {navbarItems.map((item) => (
               <li className="p-5 " key={item.id}>
-                <a href="#" className="flex flex-row gap-2  items-center ">
+                <a href={`#${item.href}`} className="flex flex-row gap-2  items-center ">
                   <span className="sm:max-md:hidden max-lg:text-xs ">{item.title}</span>
                   <item.icon />
                 </a>
