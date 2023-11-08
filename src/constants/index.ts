@@ -1,9 +1,12 @@
 import { AiOutlineHome, AiOutlineInfoCircle } from "react-icons/ai";
-import { BsBriefcase } from "react-icons/bs";
+import { BsBriefcase,BsMailbox2 } from "react-icons/bs";
 import { LuConstruction } from "react-icons/lu";
-import { GiGoldMine } from "react-icons/gi";
+// import { GiGoldMine } from "react-icons/gi";
 import { FiPhoneCall } from "react-icons/fi";
 import { GiNewspaper } from "react-icons/gi";
+import { BiSolidPhoneCall } from "react-icons/bi";
+import { MdAlternateEmail,MdFax } from "react-icons/md";
+
 export const navbarItems = [
     {
     id: 1,
@@ -139,24 +142,28 @@ export const contactUs = [
     {
         id: 21,
         title: "تلفن: ",
-        value:"04134482130-36"
+        value: "04134482130-36",
+        icon: BiSolidPhoneCall
     },
     {
         id: 22,
         title: "فکس: ",
-        value:"04134482140"
+        value: "04134482140",
+        icon: MdFax
         
     },
     {
         id: 23,
         title: "کد پستی: ",
-        value:"5197713333"
+        value:"5197713333",
+        icon: BsMailbox2
         
     },
     {
         id: 24,
         title: "ایمیل:",
-        value:"TavangaranSahandCo@gmail.com"
+        value:"TavangaranSahandCo@gmail.com",
+        icon: MdAlternateEmail
         
     },
 ]

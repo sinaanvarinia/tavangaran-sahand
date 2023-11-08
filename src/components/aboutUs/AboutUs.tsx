@@ -9,11 +9,11 @@ const AboutUs = () => {
       <div className="relative shadow-xl flex lg:flex-row flex-col ">
         {/* right */}
         
-        <div className="right flex-1 items-center justify-center bg-cover bg-[url('/about.jpeg')] ">
+        <div className="right flex-1 items-center justify-center bg-cover  ">
         <video src="/4.mp4" autoPlay loop  />
         </div>
         {/* left */} 
-        <div className="absolute top-0 flex-1 flex flex-col">
+        <div className=" flex-1 flex flex-col">
           <h2 className="lg:text-6xl text-center font-Titr lg:p-8 text-[#9b9357] lg:m-9 bg-slate-200 rounded  opacity-70">
             <span> 🌍</span>
             <span className="lg:m-9">درباره ما </span>
