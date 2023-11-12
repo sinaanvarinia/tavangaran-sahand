@@ -3,20 +3,24 @@ import styles from "./Navbar.module.css";
 import { navbarItems } from "@/constants";
 import Image from "next/image";
 import { BsMenuButtonWideFill } from "react-icons/bs";
+import Menu from "../menu/Menu";
 
 const Navbar = () => {
   return (
-    <div
-      className={`w-full justify-center flex ${styles.navbar} opacity-80 fixed`}
-    >
+    <div className={`w-full justify-center flex ${styles.navbar}  `}>
       <nav className="container flex flex-row justify-between items-center">
-        {/* right side */}
-        <div className=" hidden sm:flex">
+        {/* desktop menu */}
+        <div className=" hidden sm:flex sm:w-full mx-auto">
           <ul className={`flex flex-row ${styles.contentColor}`}>
             {navbarItems.map((item) => (
-              <li className="p-5 " key={item.id}>
-                <a href={`#${item.href}`} className="flex flex-row gap-2  items-center ">
-                  <span className="sm:max-md:hidden max-lg:text-xs ">{item.title}</span>
+              <li className="p-3 " key={item.id}>
+                <a
+                  href={`#${item.href}`}
+                  className="flex flex-row gap-2  items-center "
+                >
+                  <span className="sm:max-md:hidden max-lg:text-xs ">
+                    {item.title}
+                  </span>
                   <item.icon />
                 </a>
                 <i></i>
@@ -24,20 +28,20 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
-        {/* left side*/}
-        <div className="flex flex-row justify-between items-center">
-          <div className="sm:hidden flex p-3 text-white">
-            <BsMenuButtonWideFill  />
-          </div>
-          <div className="flex ">
-            <Image
-              className=""
-              width={50}
-              height={50}
-              src="/logo.svg"
-              alt="logo"
-            />
-          </div>
+        <i className="hidden sm:flex ">
+          <Image width={50} height={50} src="/logo.svg" alt="logo" />
+        </i>
+
+        {/* mobile menu */}
+        <div className="  sm:w-2/12 sm:hidden p-3 text-white flex flex-row justify-between items-center w-full">
+          <Menu />
+          <Image
+            className=""
+            width={50}
+            height={50}
+            src="/logo.svg"
+            alt="logo"
+          />
         </div>
       </nav>
     </div>
