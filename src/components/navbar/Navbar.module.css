@@ -1,10 +1,11 @@
 .navbar {
   background:#211e10
     linear-gradient(
-      rgb(139, 126, 72)
+      #b9b8b6
 ,
      #211e10,
-      rgb(142, 129, 77)
+      #211e10,
+      #b9b8b6
     );
 }
 
