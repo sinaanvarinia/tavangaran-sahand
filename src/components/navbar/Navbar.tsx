@@ -15,7 +15,7 @@ const Navbar = () => {
             {navbarItems.map((item) => (
               <li className="p-3 hover:text-slate-400" key={item.id}>
                 <a
-                  href={`#${item.href}`}
+                  href={`${item.href}`}
                   className="flex flex-row gap-2  items-center "
                 >
                   <span className="sm:max-md:hidden max-lg:text-xs ">

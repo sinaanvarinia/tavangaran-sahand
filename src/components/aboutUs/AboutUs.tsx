@@ -6,22 +6,22 @@ import { RiDoubleQuotesR, RiDoubleQuotesL } from "react-icons/ri";
 const AboutUs = () => {
   return (
     <section className="container my-9" id="about">
-      <div className="relative shadow-xl flex lg:flex-row flex-col ">
-        {/* right */}
+      <div className="relative shadow-xl flex flex-col-reverse ">
+        {/* video */}
         
-        <div className="right flex-1 items-center justify-center bg-cover  ">
+        <div className="right flex-1 items-center rounded-lg justify-center bg-cover  ">
         <video src="/4.mp4" autoPlay loop  />
         </div>
-        {/* left */} 
+        {/* text */} 
         <div className=" flex-1 flex flex-col">
-          <h2 className="lg:text-6xl text-center font-Titr lg:p-8 text-[#9b9357] lg:m-9 bg-slate-200 rounded  opacity-70">
-            <span> 🌍</span>
+          <h2 className="lg:text-6xl gap-4 text-4xl items-center flex flex-row text-center font-Titr lg:p-8 text-[#89824c] lg:m-9 bg-slate-200 rounded  opacity-90">
+            <span className="text-8xl"> 🌍</span>
             <span className="lg:m-9">درباره ما </span>
           </h2>
           <span className="lg:text-5xl text-[#FBF2CE] leading-3 mt-4">
             <RiDoubleQuotesR />{" "}
           </span>
-          <p className="text-justify lg:leading-9 px-7 text-sm lg:text-lg text-slate-300 ">
+          <p className="text-justify lg:leading-9 px-7 text-sm lg:text-lg text-slate-600 ">
             گروه صنعتی توانگران سهند از تابستان ۸۵ فعالیت خویش را در حوزه معدن و
             صنایع معدنی آغاز و بارویکرد تامین سنگ آهن مورد نیاز مجموعه های
             فولادی در شمال غرب به ويژه شرکت سرمایه گذاری گسترش فولاد تبریز اقدام

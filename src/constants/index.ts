@@ -12,7 +12,7 @@ export const navbarItems = [
     id: 1,
     title: "خانه",
         icon: AiOutlineHome,
-    href:"home"
+    href:"/"
 },
     {
     id: 2,
@@ -31,7 +31,7 @@ export const navbarItems = [
     id: 3,
         title: "درباره ما",
     icon:AiOutlineInfoCircle,
-    href:"about"
+    href:"/about"
     
 },
     {
@@ -55,32 +55,32 @@ export const footerSiteLinks = [
     {
         id: 1,
         title:"خانه",
-    href:"home"
+    href:"/"
     },
     {
         id: 2,
         title:"خدمات",
-    href:"services"
+    href:"/services"
     },
     {
         id: 3,
         title:"پروژه ها",
-    href:"projects"
+    href:"/projects"
     },
     {
         id: 4,
         title:"درباره ما",
-    href:"about"
+    href:"/about"
     },
     {
         id: 5,
         title:"تماس با ما",
-    href:"contact"
+    href:"/contact"
     },
     {
         id: 6,
         title:"کاتالوگ  شرکت",
-    href:"catalogue"
+    href:"/catalogue"
     }
 ]
 export const footerLinks = [
@@ -95,21 +95,16 @@ export const footerLinks = [
         link:"http://www.daricgroup.com"
     },
     {
-        id: 13,
-        title:"سازمان نظام مهندسی معدن ",
-        link:"http://imeo.ir/"
-    },
-    {
         id: 14,
         title:"هلدینگ سرمایه گذاری گسترش فولاد تبریز",
         link:"https://www.gftco.ir/"
-    }
-    ,
+    },
     {
-        id: 15,
-        title:"نظام مهندسی معدن ایران",
+        id: 13,
+        title:"سازمان نظام مهندسی معدن ",
         link:"http://imeo.ir/"
     }
+    
     ,
     {
         id: 16,

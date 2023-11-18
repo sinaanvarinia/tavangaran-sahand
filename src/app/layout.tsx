@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Head from "next/head";
+import Navbar from "@/components/navbar/Navbar";
+import Footer from "@/components/footer/Footer";
 
 export const metadata: Metadata = {
   title: "گروه صنعتی توانگران سهند",
@@ -24,13 +26,13 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
           integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-          crossorigin=""
+          crossOrigin=""
         />
         <script
           async
           src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-          crossorigin=""
+          crossOrigin=""
         ></script>
         <link
           rel="apple-touch-icon"
@@ -54,7 +56,11 @@ export default function RootLayout({
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>{" "}
       </head>
-      <body className="">{children}</body>
+      <body className="">
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }

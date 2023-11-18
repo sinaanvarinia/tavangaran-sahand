@@ -16,7 +16,7 @@ export const Hero = () => {
           </h1>
           <Typewriter
             options={{
-              strings: ["فراوری", "استخراج", "اکتشاف"],
+              strings: ["فرآوری", "استخراج", "اکتشاف"],
               autoStart: true,
               delay: 100,
               loop: true,

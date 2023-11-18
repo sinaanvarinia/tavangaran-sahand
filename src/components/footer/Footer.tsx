@@ -21,7 +21,7 @@ const Footer = () => {
           <ul className="border-r-4 border-[#ECC009] mt-6">
             {footerSiteLinks.map((item) => (
               <li className="mb-[17px] pr-4 text-slate-100" key={item.id}>
-                <Link href={`#${item.href}`}>{item.title}</Link>
+                <Link href={`${item.href}`}>{item.title}</Link>
               </li>
             ))}
           </ul>
