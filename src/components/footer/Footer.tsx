@@ -8,7 +8,7 @@ import { AiFillHeart } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className={`${styles.footer}  bg-cover w-full  items-center`}>
-      <div className="container gap-32 flex md:flex-row flex-col text-center md:text-right justify-center  py-[50px] mx-auto">
+      <div className="container gap-32 flex lg:flex-row flex-col text-center md:text-right justify-center  py-[50px] mx-auto">
         {/* 1 */}
         <div>
           <Image

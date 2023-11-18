@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "گروه صنعتی توانگران سهند",
   description:
     "Mining company , exploration, excavation,processing and more.Website created by Sina Anvarinia",
+  creator: "Sina Anvarinia",
   // icons: {
   //   icon: "public/favIcon/android-chrome-192x192.png",
   //   apple: "public/favIcon/apple-icon.png",
