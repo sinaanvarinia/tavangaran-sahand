@@ -20,7 +20,7 @@ const minesPage = () => {
               {minesConstants.mineTitle}
             </h2>
 
-            <ul className="text-xs text-slate-600  w-full">
+            <ul className="text-xs text-slate-600 mr-9  w-full">
               {minesConstants.mine.map((item) => (
                 <li
                   key={item.id}
@@ -50,10 +50,10 @@ const minesPage = () => {
               <MdOutlineLandslide /> {minesConstants.regionTitle}
             </h2>
             <div>
-              <ul className="text-xs text-slate-600">
+              <ul className="text-xs text-slate-600 mr-9">
                 {minesConstants.region.map((item) => (
                   <li
-                    className="even:bg-slate-50 pr-7 list-disc md:list-none w-full leading-loose md:leading-[3] "
+                    className="even:bg-slate-50 list-disc  w-full leading-loose md:leading-[3] "
                     key={item.id}
                   >
                     {item.title}

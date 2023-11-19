@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         {/* 2 */}
         <div>
-          <h1 className="text-3xl text-slate-100 mb-[50px]">لینک های مرتبط</h1>
+          <h1 className="text-2xl text-slate-100 mb-[50px]">لینک های مرتبط</h1>
           <ul className="border-r-4 border-[#ECC009] mt-6 ">
             {footerLinks.map((item) => (
               <li className="mb-[17px] pr-4 text-slate-100" key={item.id}>
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         {/* 3 */}
         <div>
-          <h1 className="text-3xl text-slate-100 mb-[50px]">تماس با ما</h1>
+          <h1 className="text-2xl text-slate-100 mb-[50px]">تماس با ما</h1>
           <ul className="border-r-4 border-[#ECC009] mt-6">
             {contactUs.map((item) => (
               <li className="mb-[17px] pr-4 text-slate-100" key={item.id}>
