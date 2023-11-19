@@ -62,7 +62,7 @@ export const Hero = () => {
             alt="logo"
           />
           {/* text tavangaran */}
-          <h1 className="animate__animated max-lg:hidden animate__bounceInUp animate__slow animate__delay-4s absolute top-[280px] font-Packard flex flex-col gap-5 ">
+          <h1 className="animate__animated max-lg:hidden animate__bounceInUp animate__slow animate__delay-4s absolute top-[280px]  flex flex-col gap-5 ">
             <div className="text-4xl">Tavangaran Sahand</div>
             <div>Industrial Group</div>
           </h1>
