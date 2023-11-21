@@ -9,10 +9,7 @@ export const metadata: Metadata = {
   description:
     "Mining company , exploration, excavation,processing and more.Website created by Sina Anvarinia",
   creator: "Sina Anvarinia",
-  // icons: {
-  //   icon: "public/favIcon/android-chrome-192x192.png",
-  //   apple: "public/favIcon/apple-icon.png",
-  // },
+
 };
 
 export default function RootLayout({
@@ -55,7 +52,7 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ecc009" />
         <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff"></meta>{" "}
+        <meta name="theme-color" content="#ffffff"></meta>
       </head>
       <body className="">
         <Navbar />

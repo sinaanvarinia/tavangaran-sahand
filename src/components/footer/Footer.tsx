@@ -15,7 +15,8 @@ const Footer = () => {
             className=" mx-auto"
             src="/logo.png"
             width={112}
-            height={53}
+            height={50}
+            style={{ width: "auto",height: "auto" }}
             alt="logo"
           />
           <ul className="border-r-4 border-[#ECC009] mt-6">
@@ -32,7 +33,9 @@ const Footer = () => {
           <ul className="border-r-4 border-[#ECC009] mt-6 ">
             {footerLinks.map((item) => (
               <li className="mb-[17px] pr-4 text-slate-100" key={item.id}>
-                <Link href={`${item.link}`} target="blank">{item.title}</Link>
+                <Link href={`${item.link}`} target="blank">
+                  {item.title}
+                </Link>
               </li>
             ))}
           </ul>

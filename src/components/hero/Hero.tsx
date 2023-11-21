@@ -40,13 +40,15 @@ export const Hero = () => {
             height={139.73}
             alt="logo"
           />
-          <Image
-            className="animate__infinite animate__slower animate__animated animate__rotateInDownLeft animate__delay-2s absolute w-[74.1px] h-[70px] lg:top-[83px] xl:left-[245px] lg:left-[191px]  hidden lg:block "
-            src="/heroLogo/ax.svg"
-            width={74.1}
-            height={70}
-            alt="logo"
-          />
+            <Image
+              className="animate__infinite animate__slower animate__animated animate__rotateInDownLeft animate__delay-2s absolute  lg:top-[83px] xl:left-[245px] lg:left-[191px]  hidden lg:block "
+              src="/heroLogo/ax.svg"
+              width={74.1}
+              height={70}
+              
+              alt="logo"
+            />
+
           <Image
             className="animate__slow animate__animated animate__flipInY animate__delay-3s absolute w-[11.93px] h-[19.6px] lg:top-[142px] xl:left-[234px] lg:left-[180px] object-fit md:left-[127px] hidden lg:block"
             src="/heroLogo/dot.svg"

@@ -7,6 +7,9 @@ import { GiMineExplosion, GiNewspaper } from "react-icons/gi";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { MdAlternateEmail,MdFax } from "react-icons/md";
 import { title } from "process";
+import {GrGallery} from "react-icons/gr"
+import {RiGalleryFill} from "react-icons/ri"
+import {IoMdImages} from "react-icons/io"
 
 export const navbarItems = [
     {
@@ -53,6 +56,13 @@ export const navbarItems = [
         title: "کاتالوگ شرکت",
     icon:GiNewspaper,
     href:"/catalogue"
+    
+},
+    {
+    id: 108,
+        title: "گالری عکس",
+    icon:IoMdImages,
+        href: "/gallery"
     
 },
    

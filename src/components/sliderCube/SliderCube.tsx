@@ -20,7 +20,7 @@ export default function SliderCube() {
       <div className="relative h-[500px] w-full">
         <Swiper
           autoplay={{
-            delay: 4500,
+            delay: 4700,
             disableOnInteraction: false,
           }}
           effect={"cube"}
@@ -31,12 +31,13 @@ export default function SliderCube() {
             shadowOffset: 20,
             shadowScale: 0.94,
           }}
-          pagination={true}
+          
+          pagination={false}
           modules={[EffectCube, Pagination,Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide>
-            <Image width={500} height={800} alt="slider" src="/1.jpg" />
+            <Image  width={500} height={8000} alt="slider" src="/1.jpg" />
           </SwiperSlide>
           <SwiperSlide>
             <Image width={500} height={500} alt="slider" src="/2.jpg" />
@@ -44,6 +45,7 @@ export default function SliderCube() {
           <SwiperSlide>
             <Image width={500} height={500} alt="slider" src="/3.jpg" />
           </SwiperSlide>
+          
         </Swiper>
       </div>
     );

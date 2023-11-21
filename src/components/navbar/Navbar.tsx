@@ -21,7 +21,10 @@ const Navbar = () => {
                   <span className="sm:max-md:hidden max-lg:text-xs ">
                     {item.title}
                   </span>
+                  <i className="">
+
                   <item.icon />
+                  </i>
                 </a>
                 <i></i>
               </li>
