@@ -2,30 +2,18 @@
 import React from "react";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
+import './style.css'
 
-const images = [
-  {
-    original: "https://picsum.photos/id/1018/1000/600/",
-    thumbnail: "https://picsum.photos/id/1018/1000/600/",
-  },
-  {
-    original: "https://picsum.photos/id/1015/1000/600/",
-    thumbnail: "https://picsum.photos/id/1015/250/150/",
-  },
-  {
-    original: "https://picsum.photos/id/1019/1000/600/",
-    thumbnail: "https://picsum.photos/id/1019/250/150/",
-  },
-];
-
+import { images } from "@/constants";
+ 
 const Gallery = () => {
+  
+
   return (
     <div className="container m-auto flex flex-col justify-center items-center">
-
-      <h1 className="text-3xl font-bold my-5 ">گالری عکس</h1>
-      <div className="mb-10">
-
-      <ImageGallery  items={images} />
+      <h1 className="text-3xl font-bold md:my-5 ">گالری عکس</h1>
+      <div className="md:mb-10 w-full" dir="ltr">
+        <ImageGallery items={images} />
       </div>
     </div>
   );

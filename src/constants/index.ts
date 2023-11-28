@@ -350,5 +350,229 @@ export const minesConstants = {
     ]
 
 }
+export const images = [
+  {
+    original: "/gallery/1.jpg",
+    thumbnail: "/gallery/1.jpg",
+  },
+  {
+    original: "/gallery/2.jpg",
+    thumbnail: "/gallery/2.jpg",
+  },
+  {
+    original: "/gallery/3.jpg",
+    thumbnail: "/gallery/3.jpg",
+  },
+  {
+    original: "/gallery/4.jpg",
+    thumbnail: "/gallery/4.jpg",
+  },
+  {
+    original: "/gallery/5.jpg",
+    thumbnail: "/gallery/5.jpg",
+  },
+  {
+    original: "/gallery/6.jpg",
+    thumbnail: "/gallery/6.jpg",
+  },
+  {
+    original: "/gallery/7.jpg",
+    thumbnail: "/gallery/7.jpg",
+  },
+  {
+    original: "/gallery/8.jpg",
+    thumbnail: "/gallery/8.jpg",
+  },
+  {
+    original: "/gallery/9.jpg",
+    thumbnail: "/gallery/9.jpg",
+  },
+  {
+    original: "/gallery/10.jpg",
+    thumbnail: "/gallery/10.jpg",
+  },
+  {
+    original: "/gallery/11.jpg",
+    thumbnail: "/gallery/11.jpg",
+  },
+  {
+    original: "/gallery/12.jpg",
+    thumbnail: "/gallery/12.jpg",
+  },
+  {
+    original: "/gallery/13.jpg",
+    thumbnail: "/gallery/13.jpg",
+  },
+  {
+    original: "/gallery/14.jpg",
+    thumbnail: "/gallery/14.jpg",
+  },
+  {
+    original: "/gallery/15.jpg",
+    thumbnail: "/gallery/15.jpg",
+  },
+  {
+    original: "/gallery/16.jpg",
+    thumbnail: "/gallery/16.jpg",
+  },
+  {
+    original: "/gallery/17.jpg",
+    thumbnail: "/gallery/17.jpg",
+  },
+  {
+    original: "/gallery/18.jpg",
+    thumbnail: "/gallery/18.jpg",
+  },
+  {
+    original: "/gallery/19.jpg",
+    thumbnail: "/gallery/19.jpg",
+  },
+  {
+    original: "/gallery/20.jpg",
+    thumbnail: "/gallery/20.jpg",
+  },
+  {
+    original: "/gallery/21.jpg",
+    thumbnail: "/gallery/21.jpg",
+  },
+  {
+    original: "/gallery/22.jpg",
+    thumbnail: "/gallery/22.jpg",
+  },
+  {
+    original: "/gallery/23.jpg",
+    thumbnail: "/gallery/23.jpg",
+  },
+  {
+    original: "/gallery/24.jpg",
+    thumbnail: "/gallery/24.jpg",
+  },
+  {
+    original: "/gallery/25.jpg",
+    thumbnail: "/gallery/25.jpg",
+  },
+  {
+    original: "/gallery/26.jpg",
+    thumbnail: "/gallery/26.jpg",
+  },
+  {
+    original: "/gallery/27.jpg",
+    thumbnail: "/gallery/27.jpg",
+  },
+  {
+    original: "/gallery/28.jpg",
+    thumbnail: "/gallery/28.jpg",
+  },
+  {
+    original: "/gallery/29.jpg",
+    thumbnail: "/gallery/29.jpg",
+  },
+  {
+    original: "/gallery/30.jpg",
+    thumbnail: "/gallery/30.jpg",
+  },
+  {
+    original: "/gallery/31.jpg",
+    thumbnail: "/gallery/31.jpg",
+  },
+  {
+    original: "/gallery/32.jpg",
+    thumbnail: "/gallery/32.jpg",
+  },
+  {
+    original: "/gallery/33.jpg",
+    thumbnail: "/gallery/33.jpg",
+  },
+  {
+    original: "/gallery/34.jpg",
+    thumbnail: "/gallery/34.jpg",
+  },
+  {
+    original: "/gallery/35.jpg",
+    thumbnail: "/gallery/35.jpg",
+  },
+  {
+    original: "/gallery/36.jpg",
+    thumbnail: "/gallery/36.jpg",
+  },
+  {
+    original: "/gallery/37.jpg",
+    thumbnail: "/gallery/37.jpg",
+  },
+  {
+    original: "/gallery/38.jpg",
+    thumbnail: "/gallery/38.jpg",
+  },
+  {
+    original: "/gallery/39.jpg",
+    thumbnail: "/gallery/39.jpg",
+  },
+  {
+    original: "/gallery/40.jpg",
+    thumbnail: "/gallery/40.jpg",
+  },
+  {
+    original: "/gallery/41.jpg",
+    thumbnail: "/gallery/41.jpg",
+  },
+  {
+    original: "/gallery/42.jpg",
+    thumbnail: "/gallery/42.jpg",
+  },
+  {
+    original: "/gallery/43.jpg",
+    thumbnail: "/gallery/43.jpg",
+  },
+  {
+    original: "/gallery/44.jpg",
+    thumbnail: "/gallery/44.jpg",
+  },
+  {
+    original: "/gallery/45.jpg",
+    thumbnail: "/gallery/45.jpg",
+  },
+  {
+    original: "/gallery/46.jpg",
+    thumbnail: "/gallery/46.jpg",
+  },
+  {
+    original: "/gallery/47.jpg",
+    thumbnail: "/gallery/47.jpg",
+  },
+  {
+    original: "/gallery/48.jpg",
+    thumbnail: "/gallery/48.jpg",
+  },
+  {
+    original: "/gallery/49.jpg",
+    thumbnail: "/gallery/49.jpg",
+  },
+  {
+    original: "/gallery/50.jpg",
+    thumbnail: "/gallery/50.jpg",
+  },
+  
+    
+];
+
+// export const images:{original:string,thumbnail:string} = ():{original:string,thumbnail:string}[] =>
+// {
+// const images = new Array()
+//   var i:number=1
+//   for (i ; i++; i <= 50){
+//       images.push(
+//         {
+//         original: `/gallery/${i}.jpg`,
+//         thumbnail: `/gallery/${i}.jpg`,
+//       }
+//     )
+//   }
+//     return (
+//         images
+//     )
+// }
+
+
+ 
    
     
