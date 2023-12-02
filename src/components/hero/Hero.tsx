@@ -7,7 +7,7 @@ import "animate.css";
 
 export const Hero = () => {
   return (
-    <div className=" text-white h-[calc(100vh-4rem)] bg-cover bg-[url('/heroBg.png')] w-full  items-center justify-center ">
+    <div className="font-IranYekan text-white h-[calc(100vh-4rem)] bg-cover bg-[url('/heroBg.png')] w-full  items-center justify-center ">
       <div className="container justify-center m-auto flex flex-row py-20">
         {/* right */}
         <div className="flex text-lg sm:text-3xl text-center flex-col p-12 md:w-7/12 gap-10  items-center ">
@@ -40,14 +40,13 @@ export const Hero = () => {
             height={139.73}
             alt="logo"
           />
-            <Image
-              className="animate__infinite animate__slower animate__animated animate__rotateInDownLeft animate__delay-2s absolute  lg:top-[83px] xl:left-[245px] lg:left-[191px]  hidden lg:block "
-              src="/heroLogo/ax.svg"
-              width={74.1}
-              height={70}
-              
-              alt="logo"
-            />
+          <Image
+            className="animate__infinite animate__slower animate__animated animate__rotateInDownLeft animate__delay-2s absolute  lg:top-[83px] xl:left-[245px] lg:left-[191px]  hidden lg:block "
+            src="/heroLogo/ax.svg"
+            width={74.1}
+            height={70}
+            alt="logo"
+          />
 
           <Image
             className="animate__slow animate__animated animate__flipInY animate__delay-3s absolute w-[11.93px] h-[19.6px] lg:top-[142px] xl:left-[234px] lg:left-[180px] object-fit md:left-[127px] hidden lg:block"

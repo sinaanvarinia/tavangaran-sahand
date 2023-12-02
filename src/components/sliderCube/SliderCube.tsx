@@ -49,42 +49,7 @@ export default function SliderCube() {
               </SwiperSlide>
             </>
           ))}
-          {/* <SwiperSlide>
-            <Image
-              width={500}
-              height={500}
-              alt="slider"
-              src="/awards/1-award.png"
-              className="rounded-xl"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              width={500}
-              height={500}
-              alt="slider"
-              src="/awards/2-award.png"
-              className="rounded-xl"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              width={500}
-              height={500}
-              alt="slider"
-              src="/awards/3-award.png"
-              className="rounded-xl"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              width={500}
-              height={500}
-              alt="slider"
-              src="/awards/4-award.png"
-              className="rounded-xl "
-            />
-          </SwiperSlide> */}
+      
         </Swiper>
       </div>
     );

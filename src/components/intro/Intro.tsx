@@ -6,8 +6,8 @@ const Intro = () => {
     <section className="bg-slate-50 w-full flex justify-center">
       <div className="max-w-[1000px]   flex flex-col md:flex-row">
         {/* text */}
-        <div className=" flex-1">
-          <h1 className="text-4xl text-slate-800 my-10">درباره ما</h1>
+        <div className=" flex-1 font-IranYekan">
+          <h1 className="text-4xl text-slate-800 my-10 ">افتخارات</h1>
           <p className=" text-slate-500 m-6 leading-[3] text-justify ">
             گروه صنعتی توانگران سهند، با سرمايه ثبتی 100 ميليارد ريال فعاليت خود
             در حوزه معدن را با هدف تامين سنگ آهن و ساير مواد معدنی مورد نياز
@@ -27,9 +27,10 @@ const Intro = () => {
         {/* end of text */}
 
         {/* slider */}
-        <div className="flex-1"><SliderCube /></div>
+        <div className="flex-1">
+          <SliderCube />
+        </div>
         {/* end of slider */}
-
       </div>
     </section>
   );

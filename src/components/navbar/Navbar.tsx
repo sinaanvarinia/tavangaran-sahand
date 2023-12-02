@@ -7,7 +7,9 @@ import Menu from "../menu/Menu";
 
 const Navbar = () => {
   return (
-    <div className={`w-full justify-center flex ${styles.navbar}  `}>
+    <div
+      className={`font-IranYekan w-full justify-center flex ${styles.navbar}  `}
+    >
       <nav className="container flex flex-row justify-between items-center">
         {/* desktop menu */}
         <div className=" hidden sm:flex sm:w-full mx-auto">
@@ -22,8 +24,7 @@ const Navbar = () => {
                     {item.title}
                   </span>
                   <i className="">
-
-                  <item.icon />
+                    <item.icon />
                   </i>
                 </a>
                 <i></i>
