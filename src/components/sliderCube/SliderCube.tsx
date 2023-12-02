@@ -14,13 +14,14 @@ import "./styles.css";
 // import required modules
 import { EffectCube, Pagination,Autoplay } from "swiper/modules";
 import Image from "next/image";
+import { awards } from "@/constants";
 
 export default function SliderCube() {
     return (
       <div className="relative h-[500px] w-full ">
         <Swiper
           autoplay={{
-            delay: 4700,
+            delay: 3000,
             disableOnInteraction: false,
           }}
           effect={"cube"}
@@ -28,19 +29,32 @@ export default function SliderCube() {
           cubeEffect={{
             shadow: true,
             slideShadows: true,
-            shadowOffset: 20,
+            shadowOffset: 100,
             shadowScale: 0.94,
           }}
           pagination={false}
           modules={[EffectCube, Pagination, Autoplay]}
           className="mySwiper"
         >
-          <SwiperSlide>
+          {awards.map((item) => (
+            <>
+              <SwiperSlide key={item.name}>
+                <Image
+                  width={500}
+                  height={500}
+                  alt="slider"
+                  src={item.url}
+                  className="rounded-xl"
+                />
+              </SwiperSlide>
+            </>
+          ))}
+          {/* <SwiperSlide>
             <Image
               width={500}
               height={500}
               alt="slider"
-              src="/1.jpg"
+              src="/awards/1-award.png"
               className="rounded-xl"
             />
           </SwiperSlide>
@@ -49,7 +63,7 @@ export default function SliderCube() {
               width={500}
               height={500}
               alt="slider"
-              src="/2.jpg"
+              src="/awards/2-award.png"
               className="rounded-xl"
             />
           </SwiperSlide>
@@ -58,10 +72,19 @@ export default function SliderCube() {
               width={500}
               height={500}
               alt="slider"
-              src="/3.jpg"
+              src="/awards/3-award.png"
               className="rounded-xl"
             />
           </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              width={500}
+              height={500}
+              alt="slider"
+              src="/awards/4-award.png"
+              className="rounded-xl "
+            />
+          </SwiperSlide> */}
         </Swiper>
       </div>
     );

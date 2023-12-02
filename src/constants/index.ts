@@ -350,6 +350,21 @@ export const minesConstants = {
     ]
 
 }
+export const awards = [
+  {
+    name: "مکتشف نمونه معدنی ۲۰۲۲",
+  url:"/awards/1-award.png"},
+  {
+     name: "مکتشف نمونه معدنی ۲۰۲۱",
+  url:"/awards/2-award.png"},
+  {
+    name: "مکتشف نمونه معدنی ۲۰۱۶",
+  url:"/awards/3-award.png"},
+  {
+    name: "روز مهندس ۱۴۰۱",
+  url:"/awards/4-award.png"},
+]
+
 export const images = [
   {
     original: "/gallery/1.jpg",
