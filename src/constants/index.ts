@@ -422,13 +422,140 @@ export const siteTexts =
     },
     ]
   },
-  humanResources: [
+  humanResources: {
+    mentors: {
+      title:      "مشاورين گروه صنعتی توانگران سهند",
+      members:[
+    {
+          name: "قهرمان سهرابی",
+      degreeOfKnowledge:"دکترای زمین شناسی اقتصادی ٬ عضو هیئت علمی دانشگاه محقق اردبیلی",
+      job:"",
+      imgUrl:""
+    },
     {
       name: "",
       job:"",
-      imgUrl:""
+      imgUrl: "",
+       degreeOfKnowledge:""
     }
-  ]
+    ]
+    },
+
+    technicalOfficials: {
+      title:      "مسئولین فنی گروه صنعتی توانگران سهند",
+      members: [
+        {
+      name: "ابراهیم یوزباشلو",
+      job: "",
+      degreeOfKnowledge:"",
+      imgUrl:""
+      },
+        {
+      name: "رشید فتحی رشید",
+      job:"",
+      imgUrl: "",
+      degreeOfKnowledge:""
+      
+      },
+        {
+      name: "سجاد احسانخواه",
+      job:"",
+      imgUrl: "",
+      degreeOfKnowledge:""
+      
+      },
+        {
+      name: "فضه  خلیلی پیروزان",
+      job:"",
+      imgUrl: "",
+      degreeOfKnowledge:""
+      
+      },
+        {
+      name: "مهری گوهری ",
+      job:"",
+      imgUrl: "",
+      degreeOfKnowledge:""
+      
+      },
+        
+      ]
+    }
+,
+    technicalPersonell: {
+      title: "پرسنل فنی گروه صنعتی توانگران سهند",
+      members: [
+        {
+      name: "  ابراهیم یوزباشلو",
+      job: "",
+      degreeOfKnowledge:"",
+      imgUrl:""
+      },
+        {
+      name: "حامد حمیدی هریس",
+      job: "",
+      degreeOfKnowledge:"",
+      imgUrl:""
+      },
+        {
+      name: "سجاد احسان خواه",
+      job: "",
+      degreeOfKnowledge:"",
+      imgUrl:""
+      },
+        {
+      name: "مهدی شرقی",
+      job: "",
+      degreeOfKnowledge:"",
+      imgUrl:""
+      },
+        {
+      name: "علیرضا ابراهیمی",
+      job: "",
+      degreeOfKnowledge:"",
+      imgUrl:""
+      },
+        
+       
+        
+
+      ]
+    }
+    ,
+    officePersonell: {
+      title: "پرسنل امور مالی و اداری و تدارکات گروه صنعتی توانگران سهند",
+      members: [
+        {
+      name: "محمد حسین مقتدر",
+      job: "",
+      degreeOfKnowledge:"",
+      imgUrl:""
+        },
+        {
+      name: "حبیب پربرناوش",
+      job: "",
+      degreeOfKnowledge:"",
+      imgUrl:""
+        },
+        {
+      name: "جاوید عطائی مسجدلو",
+      job: "",
+      degreeOfKnowledge:"",
+      imgUrl:""
+        },
+        {
+      name: "فضه خلیلی پیروزیان",
+      job: "",
+      degreeOfKnowledge:"",
+      imgUrl:""
+        },
+       
+        
+      ]
+    }
+
+
+    }
   }
 
 export const awards = [
