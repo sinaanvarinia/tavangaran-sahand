@@ -448,26 +448,26 @@ export const siteTexts =
       name: "ابراهیم یوزباشلو",
       job: "",
       degreeOfKnowledge:"",
-      imgUrl:""
+      imgUrl:"/personel/youzbashloo.jpeg"
       },
         {
       name: "رشید فتحی رشید",
       job:"",
-      imgUrl: "",
+      imgUrl: "/personel/fathi.jpeg",
       degreeOfKnowledge:""
       
       },
         {
       name: "سجاد احسانخواه",
       job:"",
-      imgUrl: "",
+      imgUrl: "/personel/ehsankhah.jpeg",
       degreeOfKnowledge:""
       
       },
         {
       name: "فضه  خلیلی پیروزان",
       job:"",
-      imgUrl: "",
+      imgUrl: "/personel/khalili.jpeg",
       degreeOfKnowledge:""
       
       },
@@ -489,19 +489,19 @@ export const siteTexts =
       name: "  ابراهیم یوزباشلو",
       job: "",
       degreeOfKnowledge:"",
-      imgUrl:""
+      imgUrl:"/personel/youzbashloo.jpeg"
       },
         {
       name: "حامد حمیدی هریس",
       job: "",
       degreeOfKnowledge:"",
-      imgUrl:""
+      imgUrl:"/personel/hamidi.jpeg"
       },
         {
       name: "سجاد احسان خواه",
       job: "",
       degreeOfKnowledge:"",
-      imgUrl:""
+      imgUrl:"/personel/ehsankhah.jpeg"
       },
         {
       name: "مهدی شرقی",
@@ -529,25 +529,25 @@ export const siteTexts =
       name: "محمد حسین مقتدر",
       job: "",
       degreeOfKnowledge:"",
-      imgUrl:""
+      imgUrl:"/personel/mogtader.jpeg"
         },
         {
       name: "حبیب پربرناوش",
       job: "",
       degreeOfKnowledge:"",
-      imgUrl:""
+      imgUrl:"/personel/bornavash.jpeg"
         },
         {
       name: "جاوید عطائی مسجدلو",
       job: "",
       degreeOfKnowledge:"",
-      imgUrl:""
+      imgUrl:"/personel/ataei.jpeg"
         },
         {
       name: "فضه خلیلی پیروزیان",
       job: "",
       degreeOfKnowledge:"",
-      imgUrl:""
+      imgUrl:"/personel/khalili.jpeg"
         },
        
         
