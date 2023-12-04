@@ -7,7 +7,7 @@ import "animate.css";
 
 export const Hero = () => {
   return (
-    <div className="font-IranYekan text-white h-[calc(100vh-4rem)] bg-cover bg-[url('/heroBg.png')] w-full  items-center justify-center ">
+    <div className="font-IranYekan text-white h-[calc(100vh-14rem)] bg-cover bg-[url('/gallery/7.jpg')] w-full  items-center justify-center ">
       <div className="container justify-center m-auto flex flex-row py-20">
         {/* right */}
         <div className="flex text-lg sm:text-3xl text-center flex-col p-12 md:w-7/12 gap-10  items-center ">
