@@ -1,4 +1,5 @@
 import AboutUs from "@/components/aboutUs/AboutUs";
+import Board from "@/components/board/Board";
 import History from "@/components/companyHistory/History";
 import MemberOfBoard from "@/components/memberOfBoard/MemberOfBoard";
 import Mission from "@/components/mission/Mission";
@@ -17,7 +18,7 @@ const aboutPage = () => {
       {/* <Mission/> */}
       {/* <Values/> */}
       {/* <StrategyOfCompany /> */}
-      <MemberOfBoard imgUrl="/memberOfBoard/barzgar.jpg" name="mahdiye barzgar" jobTitle="modiramel" />
+      {/* <Board/> */}
       {/* <AboutUs /> */}
     </div>
   );

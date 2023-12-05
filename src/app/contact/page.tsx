@@ -4,9 +4,11 @@ import React from "react";
 
 const contactUsPage = () => {
   return (
-    <div className="flex flex-col container mx-auto">
-      <Address/>
-      <Map/>
+    <div className="flex min-h-screen  md:p-20 p-5  bg-cover flex-col   bg-[url('/smartphone.jpg')]">
+      <div className="container mx-auto flex flex-col items-end">
+        <Address />
+        <Map />
+      </div>
     </div>
   );
 };

@@ -400,7 +400,7 @@ export const siteTexts =
     {
     name: "رسول دودانگه",
     jobTitle: "عضو هيئت مديره",
-    imgUrl: ""
+    imgUrl: "/memberOfBoard/dodange.jpg"
     },
     {
     name: "مهدی مهرداد",
