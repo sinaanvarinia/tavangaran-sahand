@@ -1,6 +1,7 @@
 import AboutUs from "@/components/aboutUs/AboutUs";
 import Board from "@/components/board/Board";
 import History from "@/components/companyHistory/History";
+import Loading from "@/components/loading/Loading";
 import MemberOfBoard from "@/components/memberOfBoard/MemberOfBoard";
 import Mentors from "@/components/mentors/Mentors";
 import Mission from "@/components/mission/Mission";
@@ -50,7 +51,14 @@ const aboutPage = () => {
       {/* <Mentors /> */}
       {/* <TechnicalOfficials/> */}
       {/* <TechnicalPersonel/> */}
-      <OfficePersonel/>
+      {/* <OfficePersonel/> */}
+
+
+      <div className="m-auto flex flex-col justify-center items-center h-screen bg-gray-200 opacity-70">
+        <Loading />
+        <div>Loading...</div>
+      </div>
+      
     </>
   );
 };
