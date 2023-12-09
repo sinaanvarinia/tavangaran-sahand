@@ -16,7 +16,7 @@ const History = () => {
         </div>
         {/* image */}
         <Image
-          className="bg-cover flex-initial rounded-xl mx-auto"
+          className="object-cover flex-initial rounded-xl mx-auto"
           width={500}
           height={200}
           src="/handshake.webp"
@@ -27,12 +27,12 @@ const History = () => {
         <h2 className="text-2xl text-slate-700 my-7">
           {siteTexts.historyOfCompany.mostImportantActivities.title}
         </h2>
-        <ol className="pr-7">
+        <ol className="md:pr-10 px-4">
           {siteTexts.historyOfCompany.mostImportantActivities.textArray.map(
             (item, index) => (
               <li
                 key={index}
-                className="my-2 text-lg text-slate-500 list-decimal pr-3"
+                className="my-2 text-lg text-slate-500 list-decimal"
               >
                 {item}
               </li>
