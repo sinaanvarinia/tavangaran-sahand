@@ -2,10 +2,12 @@ import AboutUs from "@/components/aboutUs/AboutUs";
 import Board from "@/components/board/Board";
 import History from "@/components/companyHistory/History";
 import Loading from "@/components/loading/Loading";
+import LogoHovering from "@/components/logoHovering/LogoHovering";
 import MemberOfBoard from "@/components/memberOfBoard/MemberOfBoard";
 import Mentors from "@/components/mentors/Mentors";
 import Mission from "@/components/mission/Mission";
 import OfficePersonel from "@/components/officePersnell/OfficePersonel";
+import PicLoading from "@/components/picLoading/PicLoading";
 import ShareHolders from "@/components/shareHolders/ShareHolders";
 import StrategyOfCompany from "@/components/strategyOfCompany/StrategyOfCompany";
 import SubjectOfActivity from "@/components/subjectOfActivity/SubjectOfActivity";
@@ -19,47 +21,28 @@ import React from "react";
 
 const aboutPage = () => {
   return (
-    <>
-      {/* <AboutUs /> */}
-      {/* <History /> */}
+    <div className="flex flex-col m-auto items-center ">
+      <AboutUs />
+      <div className="bg-gray-50 flex justify-center w-full">
+        <History />
+      </div>
 
-      {/* <div className=" h-80 w-full relative">
+      <div className=" h-80 w-full relative">
         <Image
-          src="/activity.webp"
+          src="/strategy.jpg"
           alt="Picture of the author"
           layout="fill"
           objectFit="cover" 
           className="" 
         />
-      </div> */}
-      {/* <SubjectOfActivity /> */}
-
-      {/* <div className="flex  md:p-20 p-5 bg-center md:bg-cover  flex-row justify-end  bg-[url('/activity.webp')]">
-        <div className="container md:w-2/3 w-full opacity-80 md:opacity-100">
-          <SubjectOfActivity />
-        </div>
-      </div> */}
-
-      {/* <div className="w-full h-[350px] bg-center md:bg-cover bg-[url('/vision.jpg')]" /> */}
-      {/* <Vision /> */}
-      {/* <Mission/> */}
-      {/* <Values/> */}
-      {/* <StrategyOfCompany /> */}
-      {/* <Board/> */}
-      {/* <ShareHolders/> */}
-
-      {/* <Mentors /> */}
-      {/* <TechnicalOfficials/> */}
-      {/* <TechnicalPersonel/> */}
-      {/* <OfficePersonel/> */}
-
-
-      <div className="m-auto flex flex-col justify-center items-center h-screen bg-gray-200 opacity-70">
-        <Loading />
-        <div>Loading...</div>
       </div>
+      <StrategyOfCompany />
+      <ShareHolders/>
+
       
-    </>
+
+      
+    </div>
   );
 };
 

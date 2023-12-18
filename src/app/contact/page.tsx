@@ -8,7 +8,6 @@ const contactUsPage = () => {
       <div className="container mx-auto flex flex-col items-end opacity-90">
         <Address />
         <Map />
-        
       </div>
     </div>
   );

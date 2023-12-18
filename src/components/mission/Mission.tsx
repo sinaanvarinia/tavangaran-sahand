@@ -1,19 +1,30 @@
-import { siteTexts } from '@/constants'
-import React from 'react'
+import { siteTexts } from "@/constants";
+import Image from "next/image";
+import React from "react";
 
 const Mission = () => {
   return (
-      <div className='container mx-auto text-late-700'>
-          <div>
-              <h1 className='text-2xl py-10 '>
-                  {siteTexts.mission.title}
-              </h1>
-              <p className='text-lg leading-loose pb-10 text-justify'>
-                  {siteTexts.mission.text}
-              </p>
+    <div className=" text-late-700 container">
+      <div>
+        <div className="flex justify-between items-center pr-8 text-center p-4">
+          <h1 className="text-3xl font-bold py-10 ">{siteTexts.mission.title}</h1>
+          <div className=" mt-4">
+            <Image
+              src="/mission.png"
+              alt="mission image"
+              width={600}
+              height={300}
+              className="rounded-full shadow-xl"
+            />
           </div>
-      </div>
-  )
-}
+        </div>
 
-export default Mission
+        <p className="text-lg leading-loose py-10 text-justify">
+          {siteTexts.mission.text}
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default Mission;

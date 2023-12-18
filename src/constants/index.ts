@@ -26,17 +26,17 @@ export const navbarItems = [
 },
     {
     id: 102,
-    title: "خدمات",
+    title: "همکاران ما",
     icon:BsBriefcase,
-    href:"/services"
+    href:"/personel"
 },
-    {
-    id: 103,
-        title: "پروژه ها",
-    icon:LuConstruction,
-    href:"/projects"
+//     {
+//     id: 103,
+//         title: "پروژه ها",
+//     icon:LuConstruction,
+//     href:"/projects"
     
-},
+// },
     {
     id: 104,
         title: "درباره ما",
@@ -453,7 +453,7 @@ export const siteTexts =
     {
       name: "مهدی شرقی",
       job:"مشاور معدنی دفتر بیرجند",
-      imgUrl: "",
+      imgUrl: "/personel/sharghi.jpg",
        degreeOfKnowledge:"فوق لیسانس اکتشافی معدن"
     },
     {
@@ -472,13 +472,13 @@ export const siteTexts =
       name: "مهدیه برزگر",
       job: "مسئول فنی معدن سنگ ریزه خراسان جنوبی (بیرجند)",
       degreeOfKnowledge:"فوق لیسانس",
-      imgUrl:""
+      imgUrl:"/memberOfBoard/barzgar.jpg"
       },
         {
       name: "مهدیه برزگر",
       job: "مسئول فنی معدن میقان خراسان جنوبی (بیرجند)",
       degreeOfKnowledge:"فوق لیسانس",
-      imgUrl:""
+      imgUrl:"/memberOfBoard/barzgar.jpg"
       },
         {
       name: "میر علی اصغر مختاری",
@@ -503,8 +503,8 @@ export const siteTexts =
       {
       name: "هادی جمشید مقدم ",
       job:"مسئول فنی قره کند مراغه",
-      imgUrl: "",
-      degreeOfKnowledge:"فوق لیسانس"
+      imgUrl: "/personel/moghadam.jpg",
+      degreeOfKnowledge:"دکترا"
       
       },
       {
@@ -517,7 +517,7 @@ export const siteTexts =
       {
       name: "رسول دودانگه",
       job:"مسئول فنی معدن آهک گنبد",
-      imgUrl: "",
+      imgUrl: "/memberOfBoard/dodange.png",
       degreeOfKnowledge:"فوق لیسانس"
       
       },
@@ -538,7 +538,7 @@ export const siteTexts =
       {
       name: "فرشاد اصغری",
       job:"مسئول فنی معدن موئیل",
-      imgUrl: "",
+      imgUrl: "/personel/asghari.jpg",
       degreeOfKnowledge:"لیسانس"
       
       },
@@ -567,7 +567,7 @@ export const siteTexts =
         {
       name: "علی رفعت هراب",
       job:"مسئول فنی معدن آوان",
-      imgUrl: "",
+      imgUrl: "/personel/rafat.jpg",
       degreeOfKnowledge:"فوق لیسانس"
       
       },
@@ -608,55 +608,55 @@ export const siteTexts =
       name: "رسول دودانگه",
       job: "سرپرست شرکت توان گران سهند",
       degreeOfKnowledge:"فوق لیسانس",
-      imgUrl:""
+      imgUrl:"/memberOfBoard/dodange.png"
       },
         {
       name: "مهری گوهری شبگاه",
       job: "کارشناس امور ادارات معدنی",
       degreeOfKnowledge:"فوق لیسانس",
-      imgUrl:""
+      imgUrl:"/personel/gohari.jpg"
       },
         {
       name: "هادی جمشید مقدم",
       job: "رئیس تحقیق و توسعه",
       degreeOfKnowledge:"دکتری",
-      imgUrl:""
+      imgUrl:"/personel/moghadam.jpg"
       },
         {
       name: "علیرضا ابراهیمی",
       job: "کارشناس معدن",
       degreeOfKnowledge:"لیسانس",
-      imgUrl:""
+      imgUrl:"/personel/ebrahimi.jpg"
       },
         {
       name: "امیر علی امین",
       job: "جانشین سرپرست معدن آوان",
       degreeOfKnowledge:"فوق دیپلم",
-      imgUrl:""
+      imgUrl:"/personel/amin.jpg"
       },
         {
       name: "علی رفعت هراب",
       job: "رئیس واحد استخراج",
       degreeOfKnowledge:"فوق لیسانس",
-      imgUrl:""
+      imgUrl:"/personel/rafat.jpg"
       },
         {
       name: "محمد قلی پور دبکلو",
       job: "کارشناس واحد استخراج",
       degreeOfKnowledge:" لیسانس",
-      imgUrl:""
+      imgUrl:"/personel/gholipour.jpg"
       },
         {
       name: "مهدی بابائی توشمانلوئی",
       job: "کارشناس ژئوفیزیک",
       degreeOfKnowledge:" فوق لیسانس",
-      imgUrl:""
+      imgUrl:"/personel/babaei.jpg"
       },
         {
       name: "امیر پوراحمدی قوشچی",
       job: "کارشناس بخش فرآوری",
       degreeOfKnowledge:" فوق لیسانس",
-      imgUrl:""
+      imgUrl:"/personel/pourahmadi.jpg"
       },
         
        
@@ -668,18 +668,18 @@ export const siteTexts =
     officePersonell: {
       title: "پرسنل امور مالی و اداری و تدارکات گروه صنعتی توانگران سهند",
       members: [
-      {
-      name: "مهديه برزگر",
-      job: "مدیر عامل",
-      degreeOfKnowledge:"فوق لیسانس زمین شناسی",
-      imgUrl:""
-        },
-        {
-      name: "مهدی مهرداد",
-      job: "مدیر پروژه",
-      degreeOfKnowledge:"لیسانس",
-      imgUrl:""
-        },
+      // {
+      // name: "مهديه برزگر",
+      // job: "مدیر عامل",
+      // degreeOfKnowledge:"فوق لیسانس زمین شناسی",
+      // imgUrl:""
+      //   },
+      //   {
+      // name: "مهدی مهرداد",
+      // job: "مدیر پروژه",
+      // degreeOfKnowledge:"لیسانس",
+      // imgUrl:""
+      //   },
         {
       name: "محمد حسین مقتدر",
       job: "رئیس امور مالی",
@@ -689,7 +689,7 @@ export const siteTexts =
       name: "ندا فرحی الوندی",
       job: "کارشناس امور مالی",
       degreeOfKnowledge:"لیسانس حسابداری",
-      imgUrl:""
+      imgUrl:"/personel/farahi.jpg"
         },
         {
       name: "حبیب پربرناوش",
@@ -714,26 +714,26 @@ export const siteTexts =
       name: "برمک بهترین",
       job: "سرپرست امور اداری",
       degreeOfKnowledge:"لیسانس حقوق",
-      imgUrl:""
+      imgUrl:"/personel/behtarin.jpg"
         },
         
         {
       name: "یاور زارعی کرسفلی",
       job: "کارشناس ماشین آلات",
       degreeOfKnowledge:"لیسانس مکانیک",
-      imgUrl:""
+      imgUrl:"/personel/zareei.jpg"
         },
         {
       name: "یوسف اکبرپوردانالو",
       job: "امور خدماتی",
       degreeOfKnowledge:"",
-      imgUrl:""
+      imgUrl:"/personel/akbarpour.jpg"
         },
         {
       name: "زکریا میرزا محمدی",
       job: "سرپرست تامین",
       degreeOfKnowledge:"دیپلم",
-      imgUrl:""
+      imgUrl:"/personel/mirzamohammadi.jpg"
         },
        
         

@@ -7,8 +7,8 @@ import "animate.css";
 
 export const Hero = () => {
   return (
-    <div className="font-IranYekan text-white h-[calc(100vh-14rem)] bg-cover bg-[url('/heroBg.png')] w-full  items-center justify-center ">
-      <div className="container justify-center m-auto flex flex-row py-20">
+    <div className="font-IranYekan text-white h-[calc(100vh-4rem)] bg-cover bg-black w-full  items-center justify-center  bg-gradient-to-b from-[#393226] to-30% to-[#000]">
+      <div className="container justify-center m-auto flex flex-row py-20 ">
         {/* right */}
         <div className="flex text-lg sm:text-3xl text-center flex-col p-12 md:w-7/12 gap-10  items-center ">
           <h1 className="font-Titr  max-sm:text-3xl   text-6xl text-center leading-loose">
@@ -22,6 +22,7 @@ export const Hero = () => {
               loop: true,
             }}
           />
+          <Image className=" object-cover" src="/hero1.jpeg" width={300} height={200} alt="pic"/>
         </div>
         {/* left */}
         <div className="hidden sm:flex flex-col relative gap-5 justify-center items-center w-5/12 ">
