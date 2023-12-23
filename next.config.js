@@ -3,7 +3,7 @@ const nextConfig = {
   output: "export",
   images: { unoptimized: true },
 
-//   basePath: "/sinaanvarinia.github.io/tavangaran-sahand",
+  basePath: "/tavangaran-sahand",
 };
 
 module.exports = nextConfig;
