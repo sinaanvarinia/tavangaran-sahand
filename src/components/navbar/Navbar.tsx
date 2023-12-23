@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Navbar.module.css";
 import { navbarItems } from "@/constants";
 import Image from "next/image";
-import { BsMenuButtonWideFill } from "react-icons/bs";
 import Menu from "../menu/Menu";
 
 const Navbar = () => {

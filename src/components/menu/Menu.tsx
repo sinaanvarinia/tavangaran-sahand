@@ -1,16 +1,7 @@
 "use client";
-
 import { navbarItems } from "@/constants";
 import Link from "next/link";
 import React, { useState } from "react";
-import { AiOutlineHome, AiOutlineInfoCircle } from "react-icons/ai";
-import { BsBriefcase, BsMailbox2 } from "react-icons/bs";
-import { LuConstruction } from "react-icons/lu";
-// import { GiGoldMine } from "react-icons/gi";
-import { FiPhoneCall } from "react-icons/fi";
-import { GiNewspaper } from "react-icons/gi";
-import { BiSolidPhoneCall } from "react-icons/bi";
-import { MdAlternateEmail, MdFax } from "react-icons/md";
 import { BsMenuButtonWideFill, BsFillMenuAppFill } from "react-icons/bs";
 
 const Menu = () => {

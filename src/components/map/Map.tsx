@@ -9,7 +9,6 @@ import {
   useMap,
 } from "react-leaflet";
 import { LatLngExpression } from "leaflet";
-import Image from "next/image";
 import styles from "./Map.module.css";
 
 

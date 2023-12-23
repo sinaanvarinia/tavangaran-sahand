@@ -1,8 +1,7 @@
 'use client'
 import React from "react";
 import { contactUs } from "@/constants";
-import Image from "next/image";
-import Map from "../map/Map";
+
 
 const Address = () => {
   return (
