@@ -29,21 +29,21 @@ export const Hero = () => {
           {/* logo animation */}
           <Image
             className="animate__slow animate__animated animate__bounceIn animate__delay-1s absolute top-[106px] lg:hidden"
-            src="/logo.svg"
+            src="logo.svg"
             width={335.7}
             height={139.73}
             alt="logo"
           />
           <Image
             className="animate__slow animate__animated animate__bounceIn animate__delay-1s absolute top-[106px] hidden lg:block"
-            src="/heroLogo/mountain.svg"
+            src="heroLogo/mountain.svg"
             width={335.7}
             height={139.73}
             alt="logo"
           />
           <Image
             className="animate__infinite animate__slower animate__animated animate__rotateInDownLeft animate__delay-2s absolute  lg:top-[83px] xl:left-[245px] lg:left-[191px]  hidden lg:block "
-            src="/heroLogo/ax.svg"
+            src="heroLogo/ax.svg"
             width={74.1}
             height={70}
             alt="logo"
@@ -51,14 +51,14 @@ export const Hero = () => {
 
           <Image
             className="animate__slow animate__animated animate__flipInY animate__delay-3s absolute w-[11.93px] h-[19.6px] lg:top-[142px] xl:left-[234px] lg:left-[180px] object-fit md:left-[127px] hidden lg:block"
-            src="/heroLogo/dot.svg"
+            src="heroLogo/dot.svg"
             width={11.93}
             height={19.6}
             alt="logo"
           />
           <Image
             className="animate__slow animate__animated animate__fadeInDown animate__delay-4s absolute w-[63.12px] h-[92.03px] lg:top-[156px] xl:left-[274px] lg:left-[220px] object-fit md:left-[169px] hidden lg:block"
-            src="/heroLogo/river.svg"
+            src="heroLogo/river.svg"
             width={63.12}
             height={92.03}
             alt="logo"
