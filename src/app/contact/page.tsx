@@ -1,6 +1,5 @@
 "use client"
 import Address from "@/components/address/Address";
-import Map from "@/components/map/Map";
 import React from "react";
 
 const contactUsPage = () => {

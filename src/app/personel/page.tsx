@@ -3,7 +3,6 @@ import Mentors from "@/components/mentors/Mentors";
 import OfficePersonel from "@/components/officePersnell/OfficePersonel";
 import TechnicalOfficials from "@/components/technicalOfficials/TechnicalOfficials";
 import TechnicalPersonel from "@/components/technicalPersonel/TechnicalPersonel";
-import Image from "next/image";
 import React from "react";
 
 const page = () => {
