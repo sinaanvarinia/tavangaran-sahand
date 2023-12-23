@@ -35,14 +35,14 @@ export const Hero = () => {
           {/* logo animation */}
           <Image
             className="animate__slow animate__animated animate__bounceIn animate__delay-1s absolute top-[106px] lg:hidden"
-            src="../../../logo.svg"
+            src="logo.svg"
             width={335.7}
             height={139.73}
             alt="logo"
           />
           <Image
             className="animate__slow animate__animated animate__bounceIn animate__delay-1s absolute top-[106px] hidden lg:block"
-            src="../../../heroLogo/mountain.svg"
+            src="heroLogo/mountain.svg"
             width={335.7}
             height={139.73}
             alt="logo"

@@ -16,7 +16,6 @@ const Footer = () => {
             src="/logo.png"
             width={112}
             height={50}
-            style={{ width: "auto",height: "auto" }}
             alt="logo"
           />
           <ul className="border-r-4 border-[#ECC009] mt-6">
