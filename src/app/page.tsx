@@ -1,4 +1,3 @@
-// "use client"
 
 import Address from "@/components/address/Address";
 import { Hero } from "@/components/hero/Hero";
@@ -42,11 +41,7 @@ export default function Home() {
 
       {/* <Slider /> */}
 
-      {/* <div className="m-auto flex flex-col justify-center items-center h-screen bg-gray-200 opacity-70">
-        <Loading />
-        <PicLoading/>
-        <div>Loading...</div>
-      </div> */}
+      
       {/* <LogoHovering/> */}
       {/* <Map/> */}
     </main>

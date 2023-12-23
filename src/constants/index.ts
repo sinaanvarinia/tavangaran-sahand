@@ -400,7 +400,7 @@ export const siteTexts =
     {
     name: "رسول دودانگه",
     jobTitle: "عضو هيئت مديره",
-    imgUrl: "/memberOfBoard/dodange.jpg"
+    imgUrl: "/memberOfBoard/dodange.png"
     },
     {
     name: "مهدی مهرداد",
@@ -459,7 +459,7 @@ export const siteTexts =
     {
       name: "میترا محمودی",
       job:"مشاور معدنی دفتر ",
-      imgUrl: "",
+      imgUrl: "/personel/mahmudi.jpg",
        degreeOfKnowledge:"دکتری مهندسی معدن"
     },
     ]
@@ -504,7 +504,7 @@ export const siteTexts =
       name: "هادی جمشید مقدم ",
       job:"مسئول فنی قره کند مراغه",
       imgUrl: "/personel/moghadam.jpg",
-      degreeOfKnowledge:"دکترا"
+      degreeOfKnowledge:"دکتری"
       
       },
       {
