@@ -1,8 +1,7 @@
-
 import Address from "@/components/address/Address";
 import { Hero } from "@/components/hero/Hero";
 import Intro from "@/components/intro/Intro";
-import Map from "@/components/map/Map";
+import Map from "@/components/map/MapComponent";
 import Mission from "@/components/mission/Mission";
 import Slider from "@/components/slider/Slider";
 import SliderCube from "@/components/sliderCube/SliderCube";
@@ -23,7 +22,6 @@ export default function Home() {
       </div>
 
       <div className=" ">
-        
         <div className="">
           <Mission />
         </div>
@@ -41,7 +39,6 @@ export default function Home() {
 
       {/* <Slider /> */}
 
-      
       {/* <LogoHovering/> */}
       {/* <Map/> */}
     </main>
